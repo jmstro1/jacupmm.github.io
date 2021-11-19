@@ -1,0 +1,178 @@
+body {
+ background-image: url("https://jacupsandbox.files.wordpress.com/2021/11/dreammass.gif");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+div.title {
+  font-family: 'Futura';
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 37.5px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  border: 2px solid
+  border-color: white;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+div.subtitle {
+  font-family: 'Futura';
+  color: white;
+  font-size: 20px;
+  left: 183px;
+  border: solid;
+  border-color: green;
+}
+
+div.menu {
+  position: relative;
+  font-family: 'Futura';
+  background-color: white;
+  color: purple;
+  width: 205px;
+  /*centers it*/
+  margin-left: auto;
+  margin-right: auto;
+  /*round corners*/
+  border-radius: 25px;
+  padding: 20px;
+  border: solid;
+  border-color: white;
+}
+
+div.index-description {
+  font-family: 'Futura';
+  color: white;
+  background-color: red;
+  width: 400px;
+  font-size: 20px;
+  border: solid;
+  border-color: pink;
+}
+
+div.stu-container {
+  width: 1050px;
+  border: solid;
+  border-color: orange;
+
+}
+
+div.portfolio {
+	  vertical-align: top;
+	  display: inline-block;
+	  margin: 10px;
+	  width: 300px;
+    height: auto;
+	  text-align: center;
+	  font-family: 'Futura';
+	  font-size: 14px;
+    background-color: white;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+
+}
+
+div.about {
+  position: relative;
+  font-family: 'Futura';
+  color: black;
+  background-color: white;
+  width: 205px;
+  font-size: 15px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  top: 100px;
+  border-radius: 25px;
+  padding: 20px;
+  border: solid;
+  border-color: white;
+
+}
+
+div.examples {
+  vertical-align: top;
+  display: inline-block;
+  /*left: auto; added this*/
+  margin: 10px;
+  width: 510px;
+  height: auto;
+  background-color: white;
+  color: white;
+  padding: 10px;
+
+}
+
+body {
+  background-color: purple;
+}
+
+mark.two {
+  color: red;
+  background-color: white;
+}
+
+mark.current {
+  color: white;
+  background-color: purple;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: purple;
+}
+
+a:link.two {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+img.one {
+  width: 300px;
+  height: 360px;
+  border-radius: 25px;
+  border: solid 1px;
+  border-color: white;
+
+}
+
+/* when screen is 600px or less apply changes */
+@media only screen and (max-width: 600px) {
+
+  /* remove .gif background set background color to purple */
+  body {
+    background-image: url("https://jacupsandbox.files.wordpress.com/2021/11/ezgif-3-dbc3e464d836.gif") !important;
+  }
+
+}
